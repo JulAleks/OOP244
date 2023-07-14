@@ -1,0 +1,16 @@
+/*/////////////////////////////////////////////////////////////////////////
+                       OOP244 Workshop - #4 (Reflect)
+Student Name: Julia Alekseev
+Student ID#:  051292134
+Email      :  jalekseev@myseneca.ca
+Section    :  NEE
+Date: 2023-06-08
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+The workshop this week covered topics such as classes, constructors, destructors, and helper functions. It is important to carefully choose which parts of our functions are private and which are public. We want to ensure that proper validation is performed before assigning values to our private class members. Additionally, assigning default values through constructors helps prevent incorrect values from being stored in our variables. Destructors are also important as they automatically clean up the object before it goes out of scope.
+
+Initially, I found it a bit challenging to adapt to classes with multiple interconnected functions, as opposed to just having one function as we did before. However, I now understand their significance and the reasons behind their usage.
+

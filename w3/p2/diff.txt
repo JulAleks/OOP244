@@ -1,0 +1,14 @@
+In line number 39 of your output:
+The output should be:
+| Tim Hortons Medium coffee doub |  230 | Breakfast  |
+                               ^
+But your output is: 
+| Tim Hortons Medium coffee dou. |  230 | Breakfast  |
+                               ^
+
+Unmatched character details:
+The character in column 32 is supposed to be:
+  [b] ASCII code(98)
+but you printed
+  [.] ASCII code(46)
+

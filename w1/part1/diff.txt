@@ -1,0 +1,14 @@
+In line number 59 of your output:
+The output should be:
+Item name: Tooth Paste
+           ^
+But your output is: 
+Item name: 3
+           ^
+
+Unmatched character details:
+The character in column 12 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [3] ASCII code(51)
+

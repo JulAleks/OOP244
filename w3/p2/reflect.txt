@@ -1,0 +1,18 @@
+/*/////////////////////////////////////////////////////////////////////////
+                       OOP244 Workshop - #3 (Reflect)
+Student Name: Julia Alekseev
+Student ID#:  051292134
+Email      :  jalekseev@myseneca.ca
+Section    :  NEE
+Date: 2023-05-31
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+The focus of this week's workshop was classes and the distinction between private members and how to access them through public functions. Instead of using loose structs and functions, we can group them together as objects. This approach consolidates related code into a cohesive unit, allowing us to create encapsulated sections that are not easily accessible. To ensure the integrity of private members, any changes to them must go through validation using public functions.
+Furthermore, there are different types of class members. Modifiers and setters enable us to modify the values of private members, while queries or getters allow us to retrieve specific information. By defining these member functions, we establish an interface for interacting with the class, providing controlled access, and maintaining data integrity.
+
+While trying to submit part 1, I found a bug that was related to my cstring function, which I initially thought was fine. This situation highlights the fact that we can never test everything, and sometimes it's crucial to revisit our old code to check if any updates are needed.
+When I started working on part 2 and opened the files, I noticed that they were blank. Initially, I felt intimidated, but I gradually progressed through the workshop step by step, eventually achieving success. Additionally, I created a foodItemTester function to ensure that my food.cpp is functioning correctly before delving into the main part of the workshop, which is CalorieList.cpp.
+

@@ -1,0 +1,12 @@
+/*/////////////////////////////////////////////////////////////////////////
+                       OOP244 Workshop - #7 (PART 2)
+Student Name: Julia Alekseev
+Student ID#:  051292134
+Email      :  jalekseev@myseneca.ca
+Section    :  NEE
+Date:      :  July 11, 2023
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+This week's workshop and milestone focused on the topic of inheritance. Throughout the sessions, I gained valuable knowledge on creating derived classes that inherit from a base class, which helps prevent code redundancy. Inheritance, being a fundamental concept, allows a class to acquire characteristics and behaviors from another class. Its significance lies in promoting modularity and maintainability of code. By facilitating code reuse, it simplifies the creation of hierarchical relationships between classes. The base class, also referred to as the parent class, passes down its properties and member functions to the derived class, known as the child class. This process results in the formation of a tree-like structure, where the derived class inherits the traits of its parent class. Through this workshop and milestone, I have gained a deeper understanding of inheritance and its advantages in developing efficient and organized code.

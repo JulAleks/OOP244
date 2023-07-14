@@ -1,0 +1,18 @@
+/*/////////////////////////////////////////////////////////////////////////
+                       OOP244 Workshop - #1 (Reflect)
+Student Name: Julia Alekseev
+Student ID#:  051292134
+Email      :  jalekseev@myseneca.ca
+Section    :  NEE
+
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+In this workshop I have learned the proper syntax and behaviours of C++ in comparison to C. 
+
+In part one it was challenging figuring out which part belongs to which module, but I think I eventually managed to make it work. 
+
+I struggled a bit with finding the proper syntax for the functions in part 2, my approach was to try and treat it like C until I get an error and then try to reaserch and figure out what would be the proper syntax, for example nullptr vs NULL.  When working on strCat I thought to try to use dynamic memory allocation to copy both strings into another variable, but I have realized that the destination variable from the tester cpp already allocated a size of 80 characters to it, so I did not need to do that. 
+
+I was very pleased to learn from my professor Mohammad Shamas, that I could assign different values to a variable and then return it rather than having multiple return statements. I feel that having only one return statement was not covered in IPC. It’s great to find new ways to achieve the goal in a more efficient way. 

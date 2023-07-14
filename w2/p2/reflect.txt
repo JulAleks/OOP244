@@ -1,0 +1,31 @@
+/*/////////////////////////////////////////////////////////////////////////
+                       OOP244 Workshop - #2 (Reflect)
+Student Name: Julia Alekseev
+Student ID#:  051292134
+Email      :  jalekseev@myseneca.ca
+Section    :  NEE
+Date: 2023-05-26
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+A parameter out is when we use a reference to pass an argument to a function. 
+bool read(int& employeeNumber) {
+       bool success = fscanf(fptr, "%d,", &employeeNumber) == 1;
+       return success;
+   }
+
+   bool read(double& employeeSalary) {
+       bool success = fscanf(fptr, "%lf,", &employeeSalary) == 1;
+       return success;
+   }
+It is useful when we want the function to return multiple values, or to modify the value of that variable outside of the scope of that function. 
+Like we have in the above functions, we are altering the employeeNumber and employeeSalary variables with the data scanned from the file. 
+On the other hand, the function bellow is passed using a parameter in:
+bool read(char* employeeName) {
+       bool success = fscanf(fptr, "%[^\n]\n", employeeName) == 1;
+       return success;
+   }
+ It passed a pointer to a character array and stores the scanned string in it. Passing by reference are possible for single characters and not strings, therefore we would need have a pointer to a character array of a proper size. 
+The main difference is that when we pass a parameter out (by reference) any modifications that we would do inside that function would change and manipulate the original variable and its address in memory was passed, and any changes would be assigned to that address. Whereas when we pass a pointer to a variable, any changes, or manipulations that we would try to do, would be local and wont effect the original value. 

@@ -1,0 +1,19 @@
+/*/////////////////////////////////////////////////////////////////////////
+                       OOP244 Workshop - #6 (PART 2)
+Student Name: Julia Alekseev
+Student ID#:  051292134
+Email      :  jalekseev@myseneca.ca
+Section    :  NEE
+Date:      :  July 7, 2023
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+Workshop reflection:
+*********************
+This week’s workshop covered uploading and writing to files in addition to extensive use of dynamic memory allocation. I found this workshop being challenging and I am happy I started working on it a head of time to have the opportunity for margin of error. We haven’t reviewed the material of files in class, so I had struggled to understand the material solely through course notes. In addition, I had some memory leak issues, that I eventually solved using the visual studio debugger. That struggle put a huge emphasis to remember to deallocate all memory and if a certain condition does not met, and to remember to set the function into a safe state. 
+
+Milestone reflection:
+*********************
+Milestone 1 covered 2 different modules, one date and another one with a menu. The date module takes user input and validates it. Whereas the menu module presents a list of food items and allows the user to choose the food items. I found milestone being less challenging than the workshop as most of the material was covered in class. 
+The milestone represented function overloading, and output through otream in addition to different ways to ignore inputs, clearing the buffer and throwing different error messages by using errCode.
