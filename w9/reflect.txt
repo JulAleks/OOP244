@@ -1,0 +1,14 @@
+/*/////////////////////////////////////////////////////////////////////////
+                       OOP244 Workshop - #9 (PART 2)
+Student Name: Julia Alekseev
+Student ID#:  051292134
+Email      :  jalekseev@myseneca.ca
+Section    :  NEE
+Date:      :  July 25, 2023
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+This week's workshop and milestone focused on several important concepts. We examined loading and writing data to and from HTML files. As well we, learned about implementing copy constructors with both derived and base classes using a different syntax, and tackled the concept of dynamic memory allocation.
+The concept of inheritance was a significant part of the workshop. It is enables us to create new classes based on existing ones, inheriting their properties and behaviors. By reusing code through inheritance, we can achieve cleaner and more maintainable code. Derived classes can add new functionalities or modify existing ones inherited from their base classes, providing a flexible and efficient way to model real-world relationships.
+In addition, copy constructor is used to create a new object as a copy of an existing object. Understanding how to handle copy constructors properly is essential to avoid issues with shallow copies and ensure that objects are correctly duplicated.
+Moreover, deallocating memory allocation is vital for managing resources efficiently, especially when dealing with data structures of varying sizes or when working with large datasets. Proper memory allocation helps prevent memory leaks and ensures our programs run smoothly and with optimal performance.

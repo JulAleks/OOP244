@@ -1,0 +1,37 @@
+/*/////////////////////////////////////////////////////////////////////////
+                       OOP244 Workshop - #10 (PART 2)
+Student Name: Julia Alekseev
+Student ID#:  051292134
+Email      :  jalekseev@myseneca.ca
+Section    :  NEE
+Date:      :  Aug 31, 2023
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+Templates allow us to create generic functions and classes that can work with different data types without having to define the exact kinds at compilation time. The template keyword is used to define function templates, and typename (or class) keyword declares generic type parameters. Templates work with any data type, including int, custom classes, and so on.
+
+In templates, the size of arrays is specified by using integers. For optimal efficiency and compatibility with different data types, it is advised to pass parameters by reference (const T&) instead of copying, as copying might not be allowed for all types (if copy or equal assignment is not allowed).
+
+To make the most of templates, it is crucial to overload functions and operators for specific data types. Failure to do so can result in templates being incompatible with custom classes or non-standard types. By incorporating template overloads, generic functions and classes become capable of effectively handling a diverse array of data types.
+
+-------------------------------------------------------------------
+Template type requirements, copied from ws10-1, as per instruction
+-------------------------------------------------------------------
+
+search
+-----------------------------------
+This fucntion accepts a reference to an object and an array, goes through the arry and tries to match a key vlue in the arry.
+If it finds it, the function will return true, if not will return false.
+
+Each template must use a key word to create a function template "template".
+In the search template we must have a refference to an object, a refferance to an array, a key value.
+As well an size veriable the MUST always be an int
+
+listArrayElements
+----------------------------------------------
+This function will print the a title.
+Then it will print a line number (i+1) and the value of the array in index #i.
+
+Each template must use a key word to create a function template "template".
+In the listArrayElements template we must have a refference to a title and a refferance to an array.
+As well an size veriable the MUST always be an int
